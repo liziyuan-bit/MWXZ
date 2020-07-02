@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/store/store",
+    "pages/logs/logs",
+    "pages/order/order"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "商家服务端",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color": "#99FFFF",
+    "selectedColor": "#16f2e7",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/store/store",
+        "text":"管理店铺"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text":"管理订单"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

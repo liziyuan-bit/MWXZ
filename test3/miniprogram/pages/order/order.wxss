@@ -1,0 +1,38 @@
+.header{
+  width: 750rpx;
+  height: 90rpx;
+  border: 1px solid black;
+}
+.hdCon{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hdCon navigator, .hdCon .kefu{
+  height: 50rpx;
+}
+.hdCon image{
+  width: 70rpx;
+}
+.kefu{
+  position: relative;
+  animation: spark linear 3s infinite alternate;
+}
+.kefu .btn{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.orderCon{
+
+}
+
+.line{
+  width: 100%;
+  background: white;
+}

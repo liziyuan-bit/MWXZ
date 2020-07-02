@@ -1,0 +1,21 @@
+<view class="header">
+  <view class="continer hdCon">
+    <navigator open-type="switchTab" url="/pages/store/store" class="logo">
+      <image mode="widthFix" src="/images/logo.jpg"></image>
+    </navigator>
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="widthFix" src="/images/kefu.jpg"></image>
+    </view>
+  </view>
+</view>
+
+<scroll-view scroll-y>
+  <view wx:for="{{orderlist}}" class="orderCon">
+    <view class="line">订单号：{{item.order_id}}</view>
+    <view class="line">顾客用户名：{{item.customer_username}}</view>
+    <view class="line">顾客姓名：{{item.customer_realname}}</view>
+    <view class="line">顾客地址：{{item.customer_address}}</view>
+    <view class="line">顾客电话：{{item.customer_phone}}</view>
+  </view>
+</scroll-view>
